@@ -1,6 +1,6 @@
 {
-  "buildCommand": "pnpm build",
-  "outputDirectory": "doc_build",
-  "installCommand": "pnpm install",
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "installCommand": "",
   "framework": null
 }
