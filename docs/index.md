@@ -36,4 +36,7 @@ features:
   - title: '9. Skill 与 MCP'
     details: '可复用的 Prompt 模板 + 标准化的外部服务协议，能力扩展的两大支柱。'
     link: /guide/09-skill-mcp
+  - title: '10. 桌宠系统'
+    details: '确定性抽卡、ASCII 动画引擎、AI 观察者——终端里的电子宠物。'
+    link: /guide/10-buddy-companion
 ---
