@@ -1,3 +1,5 @@
+import Theme from 'rspress/theme';
 import './index.css';
 
-export * from '@rspress/core/theme-original';
+export default Theme;
+export * from 'rspress/theme';
