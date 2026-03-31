@@ -14,6 +14,9 @@
   "dependencies": {
     "@rspress/core": "^2.0.7"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "devDependencies": {
     "@biomejs/biome": "2.4.9",
     "@eslint/js": "^9.39.4",
