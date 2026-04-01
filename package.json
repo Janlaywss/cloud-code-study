@@ -28,6 +28,7 @@
     "typescript-eslint": "^8.57.2"
   },
   "dependencies": {
-    "@rspress/core": "2.0.8"
+    "@rspress/core": "2.0.8",
+    "@vercel/analytics": "^2.0.1"
   }
 }

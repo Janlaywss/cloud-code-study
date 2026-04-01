@@ -18,8 +18,7 @@ export default defineConfig({
       },
     ],
     footer: {
-      message:
-        '基于 Cloud Code 源码的学习笔记，仅供学习交流',
+      message: '基于 Cloud Code 源码的学习笔记，仅供学习交流',
     },
   },
   markdown: {
