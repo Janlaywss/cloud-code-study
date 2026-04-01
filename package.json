@@ -28,7 +28,6 @@
     "typescript-eslint": "^8.57.2"
   },
   "dependencies": {
-    "@rspress/core": "^1.47.1",
-    "rspress": "^1.47.1"
+    "@rspress/core": "2.0.8"
   }
 }
