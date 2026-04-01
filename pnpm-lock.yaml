@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@rspack/binding-linux-x64-musl':
-        specifier: 2.0.0-beta.9
-        version: 2.0.0-beta.9
       '@rspress/core':
         specifier: 2.0.8
         version: 2.0.8(@types/mdast@4.0.4)(@types/react@19.2.14)(micromark-util-types@2.0.2)(micromark@4.0.2)
@@ -233,6 +230,7 @@ packages:
     resolution: {integrity: sha512-LVIXrqtAOy/DowIB04jyUyYy+5kHtZNJ0W5EJd39OwY/9gGvhgAEVvSWu7JrRAvKW1kQsV7GnRT5ninbDrRw1A==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@rspack/binding-wasm32-wasi@2.0.0-beta.9':
     resolution: {integrity: sha512-Vl7aDAt7DCqtZ/RJd8hLFjQqufX+efL/XZG3qADsagl/SspH1ItJ7N6X1S8o50eKoshy27Jr7mQYZEdufX9qhQ==}
@@ -1663,7 +1661,8 @@ snapshots:
   '@rspack/binding-linux-x64-gnu@2.0.0-beta.9':
     optional: true
 
-  '@rspack/binding-linux-x64-musl@2.0.0-beta.9': {}
+  '@rspack/binding-linux-x64-musl@2.0.0-beta.9':
+    optional: true
 
   '@rspack/binding-wasm32-wasi@2.0.0-beta.9':
     dependencies:
