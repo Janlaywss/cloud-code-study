@@ -39,4 +39,7 @@ features:
   - title: '10. 桌宠系统'
     details: '确定性抽卡、ASCII 动画引擎、AI 观察者——终端里的电子宠物。'
     link: /guide/10-buddy-companion
+  - title: '11. Team/Swarm'
+    details: '持久化多 Agent 团队：邮箱通信、权限审批、计划审批的完整协作体系。'
+    link: /guide/11-team-swarm
 ---
