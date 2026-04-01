@@ -1,5 +1,5 @@
 {
-  "buildCommand": "NAPI_RS_NATIVE_LIBRARY_PATH=./node_modules/@rspack/binding-linux-x64-musl/rspack.linux-x64-musl.node pnpm build",
+  "buildCommand": "NAPI_RS_NATIVE_LIBRARY_PATH=$(node -e \"console.log(require.resolve('@rspack/binding-linux-x64-musl/rspack.linux-x64-musl.node'))\") pnpm build",
   "outputDirectory": "doc_build",
   "installCommand": "pnpm install",
   "framework": null
